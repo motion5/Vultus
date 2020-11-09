@@ -1,0 +1,54 @@
+// Here is a comment, and below is a multiline comment
+/*
+  Core inital design, created to learn with the hope of one day being an extensible and useful GPL, maybe the basis for a DSL
+  So the most sensible features are
+  
+  - Simple as possible
+    - Syntax
+    - Paradigms
+
+  - Supportive of a functional model
+
+  - Friendly to Math
+*/
+
+/*
+  # Concepts
+  ## in
+  Pause program execution and wait for input from external source input
+
+  ## scoping
+  - module scope  
+  - each function has own scope (decleration scope)
+*/
+
+/* 
+  Keywords
+  - f = function
+  - out = log output
+  - 
+*/
+
+/* 
+  Primatives
+  - string - delimited by ",' or `
+  - int
+  @Todo
+  - decimal & float
+*/
+
+// function with no params
+f writeLine:
+  out "Here is some output"
+
+// invocation
+writeline
+
+// function with 1 params
+f multiply a b: 
+  out `Multiplying \a and \b`
+  a * b 
+
+// invocation with params
+multiply 13 42
+

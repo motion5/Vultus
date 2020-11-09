@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="vultus" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Lexer" t="Include">
+          <e p="ILexer.cs" t="Include" />
+          <e p="Lexer.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Vultus.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Parser" t="Include">
+          <e p="IParser.cs" t="Include" />
+          <e p="Parser.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Token.cs" t="Include" />
+        <e p="TokenType.cs" t="Include" />
+        <e p="Vultus.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Vultus.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Vultus.-1537449102.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+  </component>
+</project>
